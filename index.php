@@ -5,7 +5,7 @@
 </head>
 <body style="background-color: #ffe6cc;">
 <h1 style="font-size:42px;text-align:center; color:#14106b;">Personal Information</h1>
-<p> <img src="smt.jpg" alt="Photo" style="float:left;width:282px;height:276px;" >
+<p> <img src="smt.jpg" alt="Photo" style="float:left;width:282px;height:276px;margin-left:10px;" >
 Name: Telegey Nurbekova<br>
 <br>
 Date of Bitrh: 02.01.2004<br><br>
