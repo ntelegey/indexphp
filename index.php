@@ -1,30 +1,25 @@
-<html>
-<body>
-
-<form action="index.php" method="get">
-Login: <input type="text" name="login"><br>
-Password: <input type="text" name="password"><br>
-<input type="submit">
-</form>
-
-<php
-
-$login = $email = $gender = $comment = $website = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $login = test_input($_POST["login"]);
-  $password = test_input($_POST["password"]);
-
-}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-
-?>
-
+</head>
+<body style="background-color: #ffe6cc;">
+<h1 style="font-size:42px;text-align:center; color:#14106b;">Personal Information</h1>
+<p> <img src="smt.jpg" alt="Photo" style="float:left;width:282px;height:276px;margin-left:10px;" >
+Name: Telegey Nurbekova<br>
+<p> <img src="smt.jpg" alt="Photo" style="float:left;width:282px;height:276px;" >
+ Name: Telegey Nurbekova<br>
+<br>
+Date of Bitrh: 02.01.2004<br><br>
+ID Number: T180300004 <br><br>
+Level: College<br><br>
+Faculty: Secondary Vocational School<br><br>
+Department: Software of computer facilities and automated systems<br><br>
+Email: telegey.nurbekova@iaau.edu.kg<br><br>
+Education language: English
+ Date of Bitrh: 02.01.2004<br><br>
+ ID Number: T180300004 <br><br>
+ Level: College<br><br>
+ Faculty: Secondary Vocational School<br><br>
+ Department: Software of computer facilities and automated systems<br><br>
+ Email: telegey.nurbekova@iaau.edu.kg<br><br>
+ Education language: English
+</p>
 </body>
 </html>
