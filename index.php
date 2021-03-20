@@ -1,28 +1,38 @@
 <html>
 <body>
 
-
+<center> <h1> Log in </h1> </center>
+<form>
 <div class="container">
-    <label for="login"><b>Login</b></label>
-    <input type="text" placeholder="Enter Username" name="Telegey" required>
-
-    <label for="Password"><b>Password</b></label>
-    <input type="Password" placeholder="Enter Password" name="1234" required>
+    <label>Username: </label>
+    <input type="text" placeholder="Enter Username" name="userid" required>
     <br>
+    <label>Password: </label>
+    <input type="password" placeholder="Enter Password" name="pwd" required>
+    <tr>
+    	<td><input type ="Reset" value "CLEAR"></td>
+    	<td><input type ="Submit" onclick="return check(this.form)" value "SUBMIT"></td>
+    </tr>
+    
+    <script language="javascript">
+ function check (form)
 
-    <button type="submit">Login</button>
-    <br>
-   
- </div>
+{
+ if (form.userid.value == "Telegey" && form.pwd.value =="1234")
+{
+ 	form.action = "https://www.google.com/";
+ 	return true;
+}
+{
+	allert (Error Password or Username)
+	return false;
 
-  <div class="container" style="background-color:#ffe6cc">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
 
+}
+
+}
+</script>
+</div>
 </form>
-
-
-
 </body>
 </html>
