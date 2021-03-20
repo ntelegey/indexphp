@@ -17,13 +17,6 @@ Faculty: Secondary Vocational School<br><br>
 Department: Software of computer facilities and automated systems<br><br>
 Email: telegey.nurbekova@iaau.edu.kg<br><br>
 Education language: English
- Date of Bitrh: 02.01.2004<br><br>
- ID Number: T180300004 <br><br>
- Level: College<br><br>
- Faculty: Secondary Vocational School<br><br>
- Department: Software of computer facilities and automated systems<br><br>
- Email: telegey.nurbekova@iaau.edu.kg<br><br>
- Education language: English
 </p>
 </body>
 </html>
