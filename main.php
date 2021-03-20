@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal information</title>
+</head>
 </head>
 <body style="background-color: #ffe6cc;">
 <h1 style="font-size:42px;text-align:center; color:#14106b;">Personal Information</h1>
