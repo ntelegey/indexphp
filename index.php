@@ -9,10 +9,11 @@
     <br>
     <label>Password: </label>
     <input type="password" placeholder="Enter Password" name="pwd" required>
-    <tr>
-    	<td><input type ="Reset" value "CLEAR"></td>
-    	<td><input type ="Submit" onclick="return check(this.form)" value "SUBMIT"></td>
-    </tr>
+    <div class="form_button">
+    	<button type="submit" class="submit_button" id="submit_button" value="button">Submit</button>
+		<button type="reset" class="clear_button" value="clear">Clear</button>
+					
+	</div>	
     
     <script language="javascript">
  function check (form)
@@ -24,7 +25,7 @@
  	return true;
 }
 {
-	allert (Error Password or Username)
+	alert ("Invalid Password or Username")
 	return false;
 
 
