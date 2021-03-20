@@ -3,18 +3,18 @@
 <head>
 	<title>Telegey</title>
 </head>
-><body style="background-color: #ffe6cc;">
+<body style="background-color: #ffe6cc;">
 <h1 style="font-size:36px;text-align:center; color:#14106b;">Log in</h1>
 	<div class="container">
 		<div class="forms">
 			<form action="main.php">
 				<div class="username">
 					<label for="username">Username</label>
-					<input type="text" placeholder="First Name" class="fname" id="fname" name="fname"><br>
+					<input type="text" placeholder="Input Username" class="fname" id="fname" name="fname"><br>
 				</div>
 				<div class="pass_wrap">
 					<label for="password" class="pass_title">Password</label>
-					<input type="password" placeholder="Password" class="fpass" id="fpass" name="password"><br>
+					<input type="password" placeholder="Input Password" class="fpass" id="fpass" name="password"><br>
 				</div>
 				<div class="form_button">
 					<br>
@@ -34,10 +34,10 @@
         let password = document.getElementById('fpass').value;
  
         if ( login === "Telegey" && password === "1234") 
-            alert("Welcome to your page!");
+         return true;
         else {
             e.preventDefault();
-            alert("Invalid password or username");
+            alert("Invalid username or password");
         }
     };
     
