@@ -2,36 +2,31 @@
 <body>
 
 <center> <h1> Log in </h1> </center>
-<form>
+<form action="maim.php">
 <div class="container">
     <label>Username: </label>
     <input type="text" placeholder="Enter Username" name="userid" required>
     <br>
     <label>Password: </label>
     <input type="password" placeholder="Enter Password" name="pwd" required>
-    <div class="form_button">
-    	<button type="submit" class="submit_button" id="submit_button" value="button">Submit</button>
-		<button type="reset" class="clear_button" value="clear">Clear</button>
+
+    <button type="submit" value="Submit">Submit</button>
+	<button type="reset" value="Reset">Clear</button>
 					
 	</div>	
     
-    <script language="javascript">
- function check (form)
-
-{
- if (form.userid.value == "Telegey" && form.pwd.value =="1234")
-{
- 	form.action = "https://www.google.com/";
- 	return true;
-}
-{
-	alert ("Invalid Password or Username")
-	return false;
-
-
-}
-
-}
+	<script>
+	
+	    document.forms[0].onsubmit = function(e){
+        let login = document.getElementById('userid').value;
+        let password = document.getElementById('pwd').value;
+ 
+        if ( login === "Telegey" && password === "1234") 
+            alert("Welcome");
+        else {
+            e.preventDefault();
+            alert("Invalid password or login");
+        }
 </script>
 </div>
 </form>
