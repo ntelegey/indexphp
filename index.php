@@ -3,7 +3,8 @@
 <head>
 	<title>Telegey</title>
 </head>
-<body>
+><body style="background-color: #ffe6cc;">
+<h1 style="font-size:36px;text-align:center; color:#14106b;">Log in</h1>
 	<div class="container">
 		<div class="forms">
 			<form action="main.php">
